@@ -1,0 +1,4 @@
+<launch>
+  <node name="position_estimation" pkg="position_estimation" type="position_estimation" />
+  <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /home/thibault/crover_challenge/data.bag"/>
+</launch>

@@ -8,11 +8,11 @@
 
 /home/thibault/crover_challenge/crover_ws/src/position_estimation/src/position_estimation.cpp
 ros/ros.h
-/home/thibault/crover_challenge/crover_ws/src/position_estimation/src/ros/ros.h
+-
 std_msgs/String.h
-/home/thibault/crover_challenge/crover_ws/src/position_estimation/src/std_msgs/String.h
+-
 nav_msgs/Odometry.h
-/home/thibault/crover_challenge/crover_ws/src/position_estimation/src/nav_msgs/Odometry.h
+-
 vector
 -
 cmath

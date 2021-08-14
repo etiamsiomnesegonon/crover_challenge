@@ -1,6 +1,6 @@
-#include "ros/ros.h"
-#include "std_msgs/String.h"
-#include "nav_msgs/Odometry.h"
+#include <ros/ros.h>
+#include <std_msgs/String.h>
+#include <nav_msgs/Odometry.h>
 #include <vector>
 #include <cmath>
 #include <string>
@@ -55,7 +55,7 @@ int main(int argc, char **argv)
 	/*cout<<"Sensing Noise StDev: ";
 	cin>>StDev;*/
 
-	ros::init(argc, argv, "Location_Estimation");
+	ros::init(argc, argv, "position_estimation");
 	ros::NodeHandle nh;
 
 	ros::Publisher Estimation = nh.advertise<nav_msgs::Odometry>("Estimation", 1000);
@@ -65,7 +65,7 @@ int main(int argc, char **argv)
   
 	ros::Subscriber gnss = nh.subscribe("/sensors/gnss/odom", 1000, gnssData);
 	ros::Subscriber vel = nh.subscribe("/sensors/odom", 1000, velocityData);
-	//ros::Subscriber truth = nh.subscribe("/sensors/odom/ground_truth", 1000, realData);
+	ros::Subscriber truth = nh.subscribe("/sensors/odom/ground_truth", 1000, realData);
 
 	ros::Rate loop_rate(2);
 
