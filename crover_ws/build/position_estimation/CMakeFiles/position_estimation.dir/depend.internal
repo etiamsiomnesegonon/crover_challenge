@@ -4,12 +4,18 @@
 position_estimation/CMakeFiles/position_estimation.dir/src/position_estimation.cpp.o
  /home/thibault/crover_challenge/crover_ws/src/position_estimation/src/position_estimation.cpp
  /opt/ros/noetic/include/geometry_msgs/Point.h
+ /opt/ros/noetic/include/geometry_msgs/PointStamped.h
  /opt/ros/noetic/include/geometry_msgs/Pose.h
+ /opt/ros/noetic/include/geometry_msgs/PoseStamped.h
  /opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h
  /opt/ros/noetic/include/geometry_msgs/Quaternion.h
+ /opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h
+ /opt/ros/noetic/include/geometry_msgs/Transform.h
+ /opt/ros/noetic/include/geometry_msgs/TransformStamped.h
  /opt/ros/noetic/include/geometry_msgs/Twist.h
  /opt/ros/noetic/include/geometry_msgs/TwistWithCovariance.h
  /opt/ros/noetic/include/geometry_msgs/Vector3.h
+ /opt/ros/noetic/include/geometry_msgs/Vector3Stamped.h
  /opt/ros/noetic/include/message_filters/connection.h
  /opt/ros/noetic/include/message_filters/macros.h
  /opt/ros/noetic/include/message_filters/null_types.h
@@ -79,6 +85,14 @@ position_estimation/CMakeFiles/position_estimation.dir/src/position_estimation.c
  /opt/ros/noetic/include/rosconsole/macros_generated.h
  /opt/ros/noetic/include/std_msgs/Header.h
  /opt/ros/noetic/include/std_msgs/String.h
+ /opt/ros/noetic/include/tf/LinearMath/Matrix3x3.h
+ /opt/ros/noetic/include/tf/LinearMath/MinMax.h
+ /opt/ros/noetic/include/tf/LinearMath/QuadWord.h
+ /opt/ros/noetic/include/tf/LinearMath/Quaternion.h
+ /opt/ros/noetic/include/tf/LinearMath/Scalar.h
+ /opt/ros/noetic/include/tf/LinearMath/Transform.h
+ /opt/ros/noetic/include/tf/LinearMath/Vector3.h
+ /opt/ros/noetic/include/tf/transform_datatypes.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
  /usr/include/eigen3/Eigen/Cholesky

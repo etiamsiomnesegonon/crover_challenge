@@ -12,6 +12,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  message_filters
+  tf
+  #tf2_eigen
 )
 find_package(cmake_modules REQUIRED)
 
